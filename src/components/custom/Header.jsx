@@ -50,7 +50,12 @@ function Header() {
   return (
     <div className='p-3 shadow-sm flex justify-between items-center px-5'>
      <a href='/'>
-      <img src='/logo.jpeg' />
+       <img
+            src="/logo.svg"
+            alt="TravelWorld Logo"
+            className="w-12 h-auto object-contain"
+/>
+
       </a>
       <div>
         {user ?
